@@ -1,0 +1,40 @@
+body { background: #b4d455 }
+h1 { font-family: "Helvetica", "Arial", sans-serif; font-size: 40px }
+
+.main-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.content {
+  width: 500px;
+  height: 300px;
+  margin: 0 0 20px 0;
+  border: 0;
+  overflow-y: scroll;
+  background: yellow;
+  border-radius: 6px;
+}
+
+input[type=text] {
+  width: 422px;
+  margin: 0 12px 0 0;
+  padding: 6px 12px;
+  font-size: 1.2em;
+  border: 0;
+  vertical-align: top;
+}
+
+input[type=button] {
+  text-transform: none;
+  font-weight: normal;
+  margin: 0;
+  padding: 6px 12px;
+  font-size: 1.2em;
+  background: #ccffcc;
+  border: 0;
+  line-height: 0;
+}
+
+
