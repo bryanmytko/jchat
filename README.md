@@ -1,3 +1,3 @@
-# Jwitter
+# Jchat.
 
 Yes, hello.

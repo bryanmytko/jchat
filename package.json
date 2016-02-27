@@ -1,11 +1,17 @@
 {
-  "name": "jwitter",
+  "name": "jchat",
   "version": "1.0.0",
-  "description": "Jwitter.",
-  "main": "index.js",
+  "description": "No.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bryan Mytko",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.13.4",
+    "handlebars": "^4.0.5",
+    "socket.io": "latest",
+    "jade": "latest"
+  }
 }
