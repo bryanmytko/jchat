@@ -1,11 +1,15 @@
 var express = require('express');
-var handlebars = require('handlebars');
 var app = express();
+var port = 3001;
+
+app.set('views', __dirname + '/views');
+app.set('view engine', 'jade');
+app.engine('jade', require('jade').__express);
 
 app.get('/', function(req, res){
-  res.send('hello universe');
+  res.render('index');
 });
 
-app.listen(3001, function(){
-  console.log('All fired up on three-thousand and one');
+app.listen(port, function(){
+  console.log(`All fired up on ${port}`);
 });
